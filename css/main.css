@@ -29,3 +29,12 @@ h2 {
   padding-bottom: 20px;
   font-weight: bolder;
 }
+
+blockquote {
+  margin-top: 10px;
+  padding-top: 20px;
+  border-top: 2px solid #888;
+  /*border-bottom: 2px solid #888;*/
+  color: #888;
+  text-align: center;
+}
