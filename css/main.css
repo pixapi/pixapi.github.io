@@ -3,13 +3,13 @@
   background-color: #6AD7D3;
 }
 
-.primary-footer {
+.navbar-static-top {
   position: fixed;
-  height: 50px;
-  bottom: 0;
   width: 100%;
-  padding-top: 16px;
-  padding-bottom: 16px;
+}
+
+#top {
+  padding-top: 80px;
 }
 
 body {
@@ -25,20 +25,56 @@ h1 {
 }
 
 h2 {
-  color: purple;
+  color: teal;
+  text-align: center;
   font-size: 26px;
-  text-transform: uppercase;
+  padding-bottom: 20px;
 }
 
-blockquote {
-  padding-top: 40px;
+#long-me, #tree {
+  display: inline-block;
+}
+
+.quote {
+  padding-top: 50px;
   color: #888;
   text-align: center;
 }
 
+.brief-me {
+  font-weight: bolder;
+  color: #888;
+}
+
+.scroll {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#about-me {
+  border-top: 3px solid #888;
+}
+
 #picture {
   border-radius: 170px;
-  height: 20%;
+  height: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.col-md-6 img {
+  height: 250px;
+  margin-bottom: 50px;
+  padding-left: 70px;
+}
+
+#long-me {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 40px;
+}
+
+.homepage-center {
   text-align: center;
 }
 
@@ -47,7 +83,16 @@ blockquote {
 }
 
 /*===== Footer =====*/
-.small, .social-media {
+
+.primary-footer {
+  /*position: fixed;*/
+  height: 50px;
+  bottom: 0;
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.small, .social-media, .top-menu {
   display: inline-block;
 }
 
