@@ -1,0 +1,31 @@
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+body {
+  color: #000;
+  font: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+h1 {
+  color: teal;
+  font-size: 32px;
+}
+
+h2 {
+  color: purple;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+.primary-footer .footer_nav {
+  float: right;
+  word-spacing: 20px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
