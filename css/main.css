@@ -1,8 +1,16 @@
-/*
-  ========================================
-  Custom styles
-  ========================================
-*/
+/*===== Custom styles =====*/
+.navbar-static-top, .primary-footer {
+  background-color: #6AD7D3;
+}
+
+.primary-footer {
+  position: fixed;
+  height: 50px;
+  bottom: 0;
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
 
 body {
   color: #000;
@@ -22,19 +30,28 @@ h2 {
   text-transform: uppercase;
 }
 
-.primary-footer .footer_nav {
-  float: right;
-  word-spacing: 20px;
-  padding-right: 50px;
-  padding-bottom: 20px;
-  font-weight: bolder;
-}
-
 blockquote {
-  margin-top: 10px;
-  padding-top: 20px;
-  border-top: 2px solid #888;
-  /*border-bottom: 2px solid #888;*/
+  padding-top: 40px;
   color: #888;
   text-align: center;
+}
+
+#picture {
+  border-radius: 170px;
+  height: 20%;
+  text-align: center;
+}
+
+.copyright {
+  padding-left: 10px;
+}
+
+/*===== Footer =====*/
+.small, .social-media {
+  display: inline-block;
+}
+
+.social-media {
+  text-align: right;
+  margin: 0 10px;
 }
