@@ -1,12 +1,5 @@
-/*===== Custom styles =====*/
-.navbar-static-top, .primary-footer {
-  background-color: #6AD7D3;
-}
 
-.navbar-static-top {
-  position: fixed;
-  width: 100%;
-}
+/*===== Custom styles =====*/
 
 #top {
   padding-top: 80px;
@@ -31,8 +24,11 @@ h2 {
   padding-bottom: 20px;
 }
 
-#long-me, #tree {
-  display: inline-block;
+#tree {
+  margin-top: 20px;
+  height: 250px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .quote {
@@ -46,13 +42,22 @@ h2 {
   color: #888;
 }
 
-.scroll {
-  padding-top: 50px;
-  padding-bottom: 50px;
+.long-me {
+  color: #888;
+  margin-bottom: 20px;
 }
 
-#about-me {
-  border-top: 3px solid #888;
+.bottom {
+  padding-top: 50px; 
+  padding-bottom: 30px;
+}
+
+.learn-more a {
+  font-weight: bolder;
+}
+
+.learn-more a:hover {
+  text-decoration: underline;
 }
 
 #picture {
@@ -63,36 +68,45 @@ h2 {
 }
 
 .col-md-6 img {
+  margin-top: 14px;
   height: 250px;
-  margin-bottom: 50px;
-  padding-left: 70px;
+  margin-bottom: 30px;
+  margin-left: 20px;
 }
 
 #long-me {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 40px;
+  padding-right: 100px;
 }
 
 .homepage-center {
   text-align: center;
 }
 
-.copyright {
-  padding-left: 10px;
+/*===== Navigation =====*/
+
+.navbar-static-top, .primary-footer {
+  background-color: #6AD7D3;
 }
 
+.navbar-static-top {
+  position: fixed;
+  width: 100%;
+}
 /*===== Footer =====*/
 
 .primary-footer {
-  /*position: fixed;*/
+  position: fixed;
   height: 50px;
-  bottom: 0;
   width: 100%;
   padding-top: 16px;
   padding-bottom: 16px;
 }
-.small, .social-media, .top-menu {
+
+.copyright {
+  padding-left: 10px;
+}
+
+.small, .social-media {
   display: inline-block;
 }
 
