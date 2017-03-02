@@ -129,11 +129,9 @@ h2 {
 /*===== Footer =====*/
 
 .primary-footer {
-  position: fixed;
-  height: 50px;
+  position: absolute;
+  bottom: 0;
   width: 100%;
-  padding-top: 16px;
-  padding-bottom: 16px;
 }
 
 .copyright {
