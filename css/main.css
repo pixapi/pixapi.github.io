@@ -108,6 +108,10 @@ h2 {
   margin: 0 auto;
 }
 
+.post {
+  padding-bottom: 10px;
+}
+
 #more-posts {
   text-align: center;
   padding-bottom: 20px;
