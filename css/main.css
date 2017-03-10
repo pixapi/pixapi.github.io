@@ -94,7 +94,14 @@ h2 {
   color: #888;
 }
 
-#pomodoro, #gifted-mom {
+#pomodoro {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+#gifted-mom {
   padding-top: 30px;
   padding-bottom: 30px;
   height: 300px;
